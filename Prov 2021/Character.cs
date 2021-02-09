@@ -13,7 +13,7 @@ namespace Prov_2021
       {
           hp -= amount;
       }
-
+     // metod för att få mer hp
       public void Regen (int amount)
       {
           hp += generator.Next(5,15);

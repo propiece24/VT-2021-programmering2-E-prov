@@ -6,11 +6,15 @@ namespace Prov_2021
     {
         static void Main(string[] args)
         {
-            
+
+
+           // här frågar den vilken karaktär man vill köra. 
          Console.WriteLine("Skriv marksman om du vill ha marksman");
          Console.WriteLine("Skriv fighter om du vill ha Fighter");
          string Karaktärtyp = Console.ReadLine();
 
+
+          // här väljs marksman och man får välja namn
          if( Karaktärtyp == "marksman")
          {
            Marksman myMarksman = new Marksman();
